@@ -1,6 +1,12 @@
 import type { Metadata } from 'next'
+import { Lusitana } from 'next/font/google'
 import './globals.css'
 import Navigation from './components/Navigation'
+
+const lusitana = Lusitana({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: 'AI Safety UCI',
@@ -14,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={lusitana.className}>
         <Navigation />
         {children}
       </body>
