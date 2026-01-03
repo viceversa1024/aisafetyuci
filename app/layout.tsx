@@ -9,7 +9,7 @@ const lusitana = Lusitana({
 })
 
 export const metadata: Metadata = {
-  title: 'AI Safety UCI',
+  title: 'AI Safety at UCI',
   description: 'AI Safety at UC Irvine',
 }
 
