@@ -17,37 +17,37 @@ export default function About() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {/* Placeholder person cards */}
             <div className="bg-white rounded-lg shadow p-6 flex flex-col">
-              <div className="w-full h-40 bg-gray-200 rounded-md mb-4" />
+              <img src="/images/team/helenatranheadshot.jpg" alt="Helena Tran" className="w-full h-40 object-cover rounded-md mb-4" />
               <h3 className="text-lg font-semibold text-gray-900">Helena Tran</h3>
               <p className="text-sm text-gray-500">President</p>
             </div>
 
             <div className="bg-white rounded-lg shadow p-6 flex flex-col">
-              <div className="w-full h-40 bg-gray-200 rounded-md mb-4" />
+              <img src="/images/team/raghav-sriram.svg" alt="Raghav Sriram" className="w-full h-40 object-cover rounded-md mb-4" />
               <h3 className="text-lg font-semibold text-gray-900">Raghav Sriram</h3>
               <p className="text-sm text-gray-500">Treasurer</p>
             </div>
 
             <div className="bg-white rounded-lg shadow p-6 flex flex-col">
-              <div className="w-full h-40 bg-gray-200 rounded-md mb-4" />
+              <img src="/images/team/azalea-kasiri.svg" alt="Azalea Kasiri" className="w-full h-40 object-cover rounded-md mb-4" />
               <h3 className="text-lg font-semibold text-gray-900">Azalea Kasiri</h3>
               <p className="text-sm text-gray-500">Officer</p>
             </div>
 
             <div className="bg-white rounded-lg shadow p-6 flex flex-col">
-              <div className="w-full h-40 bg-gray-200 rounded-md mb-4" />
+              <img src="/images/team/rylen-choi.svg" alt="Rylen Choi" className="w-full h-40 object-cover rounded-md mb-4" />
               <h3 className="text-lg font-semibold text-gray-900">Rylen Choi</h3>
               <p className="text-sm text-gray-500">Officer</p>
             </div>
 
             <div className="bg-white rounded-lg shadow p-6 flex flex-col">
-              <div className="w-full h-40 bg-gray-200 rounded-md mb-4" />
+              <img src="/images/team/achyuta-raghunathan.svg" alt="Achyuta Raghunathan" className="w-full h-40 object-cover rounded-md mb-4" />
               <h3 className="text-lg font-semibold text-gray-900">Achyuta Raghunathan</h3>
               <p className="text-sm text-gray-500">Officer</p>
             </div>
 
             <div className="bg-white rounded-lg shadow p-6 flex flex-col">
-              <div className="w-full h-40 bg-gray-200 rounded-md mb-4" />
+              <img src="/images/team/harry-waterman.svg" alt="Harry Waterman" className="w-full h-40 object-cover rounded-md mb-4" />
               <h3 className="text-lg font-semibold text-gray-900">Harry Waterman</h3>
               <p className="text-sm text-gray-500">Officer</p>
             </div>
