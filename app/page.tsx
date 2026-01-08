@@ -77,6 +77,65 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="mb-12 max-w-6xl mx-auto">
+            <h2 className="text-3xl text-[#00386c] font-semibold text-gray-900 mb-8 text-center mt-16">
+              Upcoming Events
+            </h2>
+            <div className="bg-white rounded-lg shadow-lg p-8">
+              <div className="space-y-6">
+                <div className="border-l-4 border-indigo-600 pl-4 py-2">
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900">Weekly Reading Group</h3>
+                      <p className="text-gray-600 mt-1">Discussion of recent AI safety research papers</p>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-lg font-semibold text-[#00386c]">Fridays</p>
+                      <p className="text-sm text-gray-500">5:00 PM - 6:30 PM</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="border-l-4 border-indigo-600 pl-4 py-2">
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900">Fellowship Applications</h3>
+                      <p className="text-gray-600 mt-1">Apply for Winter 2026 Intro & Advanced Fellowships</p>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-lg font-semibold text-[#00386c]">Dec 15, 2025</p>
+                      <p className="text-sm text-gray-500">Deadline</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="border-l-4 border-indigo-600 pl-4 py-2">
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900">Coworking Sessions</h3>
+                      <p className="text-gray-600 mt-1">Collaborative work on AI safety projects</p>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-lg font-semibold text-[#00386c]">Wednesdays</p>
+                      <p className="text-sm text-gray-500">3:00 PM - 5:00 PM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8 text-center">
+                <a
+                  href="https://discord.gg/uENtNdDPPb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block text-indigo-600 hover:text-indigo-700 font-semibold"
+                >
+                  View Full Calendar on Discord →
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
