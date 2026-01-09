@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Programs() {
   return (
     <main className="min-h-screen bg-white">
@@ -11,7 +13,6 @@ export default function Programs() {
       </div>
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl text-[#00386c] font-semibold text-gray-900 mb-8 text-center">Our Programs</h2>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
@@ -19,16 +20,18 @@ export default function Programs() {
                 Intro Fellowship
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                A comprehensive introduction to AI safety for students new to the field.
-                Learn fundamental concepts, engage with key research papers, and build
-                a foundation in AI alignment.
+                An eight week fellowship covering hallmark papers and key AI Safety concepts.
               </p>
               <ul className="list-disc list-inside text-gray-600 space-y-2">
-                <li>Weekly readings and discussions</li>
+                <li>Meet 1x/week for 2 hours for 8 weeks</li>
                 <li>Introduction to alignment research</li>
-                <li>Hands-on projects and exercises</li>
-                <li>Mentorship from experienced researchers</li>
+
               </ul>
+              <div className="mt-6">
+                <Link href="/contact" className="inline-block bg-[#00386c] text-white font-semibold px-6 py-2 rounded hover:bg-[#002b52] transition">
+                  Apply Now
+                </Link>
+              </div>
             </div>
 
             <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
@@ -36,16 +39,18 @@ export default function Programs() {
                 Advanced Fellowship
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Deep dive into cutting-edge AI safety research for experienced students.
-                Conduct original research, collaborate on projects, and contribute to
-                the field of AI alignment.
+                Deep dive into cutting-edge AI safety research for students with experience in the field.
               </p>
               <ul className="list-disc list-inside text-gray-600 space-y-2">
-                <li>Advanced research topics</li>
-                <li>Original research projects</li>
-                <li>Collaboration with faculty</li>
-                <li>Publication opportunities</li>
+                <li><a href="https://arena-chapter0-fundamentals.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-[#00386c] font-semibold underline">ARENA</a>: Deep Learning/Mech Interp/Evals/RL</li>
+                <li>AI Demos for Policy Makers</li>
+                <li>Independent Research (compute funding available.)</li>
               </ul>
+              <div className="mt-6">
+                <Link href="/contact" className="inline-block bg-[#00386c] text-white font-semibold px-6 py-2 rounded hover:bg-[#002b52] transition">
+                  Apply Now
+                </Link>
+              </div>
             </div>
           </div>
         </div>
