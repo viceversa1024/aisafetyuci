@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
@@ -31,50 +33,29 @@ export default function Home() {
             <p className="text-lg text-gray-600 text-left leading-relaxed mb-8">
               We seek to advance the understanding and development of interpretable and aligned artificial intelligence systems. We are dedicated to addressing the long-term risks and potential harms associated with AI, as we approach the possibility of artificial general intelligence (AGI). Recognizing the profound uniqueness of human intelligence and the existential risks posed by unchecked AI advancement, we commit ourselves to ensuring that AI technologies align with human values and contribute positively to society.
             </p>
-            <h2 className="text-3xl text-[#00386c] font-semibold text-gray-900 mb-4 mt-16">What We Do</h2>
-            <p className="text-lg text-gray-600 text-left leading-relaxed mb-8">
-              Fellowships, reading groups, coworking, etc.
-            </p>
           </div>
 
           <div className="mb-12 max-w-6xl mx-auto">
             <h2 className="text-3xl text-[#00386c] font-semibold text-gray-900 mb-8 text-center mt-16">
-              Our Programs
+              Get Involved
             </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Intro Fellowship
-                </h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  A comprehensive introduction to AI safety for students new to the field.
-                  Learn fundamental concepts, engage with key research papers, and build
-                  a foundation in AI alignment.
-                </p>
-                <ul className="list-disc list-inside text-gray-600 space-y-2">
-                  <li>Weekly readings and discussions</li>
-                  <li>Introduction to alignment research</li>
-                  <li>Hands-on projects and exercises</li>
-                  <li>Mentorship from experienced researchers</li>
-                </ul>
-              </div>
+            <div className="grid grid-cols-2 gap-8">
+              <Link href="/programs" className="flex flex-col items-center justify-center bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow text-center" aria-label="Programs">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422A12.083 12.083 0 0118 19.666V20l-6 3-6-3v-.334a12.083 12.083 0 01-.16-8.088L12 14z" />
+                </svg>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Programs</h3>
+                <p className="text-gray-700">Explore our Intro & Advanced Fellowships and other programs.</p>
+              </Link>
 
-              <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Advanced Fellowship
-                </h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Deep dive into cutting-edge AI safety research for experienced students.
-                  Conduct original research, collaborate on projects, and contribute to
-                  the field of AI alignment.
-                </p>
-                <ul className="list-disc list-inside text-gray-600 space-y-2">
-                  <li>Advanced research topics</li>
-                  <li>Original research projects</li>
-                  <li>Collaboration with faculty</li>
-                  <li>Publication opportunities</li>
-                </ul>
-              </div>
+              <Link href="/resources" className="flex flex-col items-center justify-center bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow text-center" aria-label="Events">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3M3 11h18M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Learn</h3>
+                <p className="text-gray-700">Get started with curated resources.</p>
+              </Link>
             </div>
           </div>
 
@@ -87,11 +68,24 @@ export default function Home() {
                 <div className="border-l-4 border-indigo-600 pl-4 py-2">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-bold text-gray-900">Weekly Reading Group</h3>
-                      <p className="text-gray-600 mt-1">Discussion of recent AI safety research papers</p>
+                      <h3 className="text-xl font-bold text-gray-900">Intro Fellowship</h3>
+                      <p className="text-gray-600 mt-1">An eight week fellowship covering hallmark papers and key AI Safety concepts.</p>
                     </div>
                     <div className="text-right">
-                      <p className="text-lg font-semibold text-[#00386c]">Fridays</p>
+                      <p className="text-lg font-semibold text-[#00386c]">Thursdays</p>
+                      <p className="text-sm text-gray-500">6:00 PM - 8:30 PM</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="border-l-4 border-indigo-600 pl-4 py-2">
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900">Alignment Research Incubator</h3>
+                      <p className="text-gray-600 mt-1">Hands-on technical AI alignment research for students who have completed the Intro Fellowship.</p>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-lg font-semibold text-[#00386c]">Mondays</p>
                       <p className="text-sm text-gray-500">5:00 PM - 6:30 PM</p>
                     </div>
                   </div>
@@ -100,25 +94,26 @@ export default function Home() {
                 <div className="border-l-4 border-indigo-600 pl-4 py-2">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-bold text-gray-900">Fellowship Applications</h3>
-                      <p className="text-gray-600 mt-1">Apply for Winter 2026 Intro & Advanced Fellowships</p>
+                      <h3 className="text-xl font-bold text-gray-900">General Meeting</h3>
+                      <p className="text-gray-600 mt-1">Our biweekly general meeting for all members.</p>
                     </div>
                     <div className="text-right">
-                      <p className="text-lg font-semibold text-[#00386c]">Dec 15, 2025</p>
-                      <p className="text-sm text-gray-500">Deadline</p>
+                      <p className="text-lg font-semibold text-[#00386c]">Tuesday, January 13th</p>
+                      <p className="text-sm text-gray-500">5:00 PM - 7:00 PM</p>
                     </div>
                   </div>
                 </div>
+
 
                 <div className="border-l-4 border-indigo-600 pl-4 py-2">
                   <div className="flex justify-between items-start">
                     <div>
                       <h3 className="text-xl font-bold text-gray-900">Coworking Sessions</h3>
-                      <p className="text-gray-600 mt-1">Collaborative work on AI safety projects</p>
+                      <p className="text-gray-600 mt-1">Biweekly collaborative work on AI safety projects</p>
                     </div>
                     <div className="text-right">
-                      <p className="text-lg font-semibold text-[#00386c]">Wednesdays</p>
-                      <p className="text-sm text-gray-500">3:00 PM - 5:00 PM</p>
+                      <p className="text-lg font-semibold text-[#00386c]">Tuesday, January 20th</p>
+                      <p className="text-sm text-gray-500">5:00 PM - 7:00 PM</p>
                     </div>
                   </div>
                 </div>
@@ -126,12 +121,12 @@ export default function Home() {
 
               <div className="mt-8 text-center">
                 <a
-                  href="https://discord.gg/uENtNdDPPb"
+                  href="https://docs.google.com/spreadsheets/d/1vEjZhOod4TGB06gjNjoip7lAhmZmNdFT0LRmovrwS48/edit?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block text-indigo-600 hover:text-indigo-700 font-semibold"
                 >
-                  View Full Calendar on Discord →
+                  View Full Calendar →
                 </a>
               </div>
             </div>
