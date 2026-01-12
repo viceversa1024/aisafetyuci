@@ -17,18 +17,14 @@ export default function Contact() {
           <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Get in Touch</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
-              The easiest way to reach the AISUCI team is through our <a href="https://discord.gg/uENtNdDPPb" target="_blank" rel="noopener noreferrer" className="text-[#00386c] font-semibold underline">Discord</a>. Alternatively, you can email us at
+              The easiest way to reach the AISUCI team is through our <a href="https://discord.gg/uENtNdDPPb" target="_blank" rel="noopener noreferrer" className="text-[#00386c] font-semibold underline">Discord</a>. Alternatively, you can email us at helenat2 at uci dot edu
             </p>
 
             <div className="space-y-4">
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
-                <p className="text-gray-700">contact@aisafetyuci.org</p>
-              </div>
 
               <div>
                 <h3 className="font-semibold text-gray-900 mb-2">Social Media</h3>
-                <p className="text-gray-700">Follow us on Twitter, <a href="https://discord.gg/uENtNdDPPb" target="_blank" rel="noopener noreferrer" className="text-[#00386c] font-semibold underline">Discord</a>, and LinkedIn</p>
+                <p className="text-gray-700">Follow us on <a href="https://www.instagram.com/aisafetyatuci/" target="_blank" rel="noopener noreferrer" className="text-[#00386c] font-semibold underline">Instagram</a></p>
               </div>
             </div>
           </div>
