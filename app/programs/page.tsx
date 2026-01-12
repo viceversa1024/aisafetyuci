@@ -1,4 +1,10 @@
 import Link from 'next/link';
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Programs',
+  description: 'Explore our Intro Fellowship and Advanced Fellowship programs. Join reading groups, research projects, and workshops in AI safety at UC Irvine.',
+}
 
 export default function Programs() {
   return (

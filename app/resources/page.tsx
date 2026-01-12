@@ -1,3 +1,10 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Resources',
+  description: 'Curated resources for learning AI safety and alignment. Access research papers, tutorials, and community links to advance your understanding.',
+}
+
 export default function Resources() {
   return (
     <main className="min-h-screen bg-white">

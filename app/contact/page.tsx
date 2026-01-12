@@ -1,3 +1,10 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Contact Us',
+  description: 'Get in touch with AI Safety at UCI. Join our Discord community, attend our events, or reach out with questions about our programs.',
+}
+
 export default function Contact() {
   return (
     <main className="min-h-screen bg-white">
