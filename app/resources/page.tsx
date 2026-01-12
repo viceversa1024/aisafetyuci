@@ -11,38 +11,64 @@ export default function Resources() {
       </div>
 
       <div className="container mx-auto px-4 py-16">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl font-bold text-gray-900 mb-8">Resources</h1>
+        <div className="max-w-6xl mx-auto">
 
-          <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Getting Started</h2>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                New to AI safety? Here are some foundational resources to begin your journey:
-              </p>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>Introduction to AI alignment research</li>
-                <li>Key papers and textbooks</li>
-                <li>Online courses and tutorials</li>
-              </ul>
-            </div>
+          <section className="mb-12">
+            <h2 className="text-3xl text-[#00386c] font-semibold text-gray-900 mb-6 text-center">Foundations</h2>
+            <div className="grid gap-8 md:grid-cols-3">
+              <a href="https://www.youtube.com/watch?v=pYXy-A4siMw" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow no-underline focus:outline-none focus:ring-2 focus:ring-indigo-500" aria-label="Intro to AI Safety by Robert Miles (2021)">
+                <div className="relative">
+                  <img src="https://img.youtube.com/vi/pYXy-A4siMw/hqdefault.jpg" alt="Intro to AI Safety video thumbnail" className="w-full h-40 object-cover" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-14 h-14 text-white opacity-90" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden>
+                      <circle cx="12" cy="12" r="10" strokeWidth="1.5" className="" />
+                      <path d="M10 8l6 4-6 4V8z" fill="white" />
+                    </svg>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-1">Intro to AI Safety</h3>
+                  <p className="text-sm text-gray-600 mb-3">Robert Miles · 2021 · YouTube</p>
+                  <p className="text-gray-700 mb-0">A clear, accessible introduction to core AI safety concepts and motivations.</p>
+                </div>
+              </a>
 
-            <div className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Research Tools</h2>
-              <p className="text-gray-700 leading-relaxed">
-                Essential tools and frameworks for conducting AI safety research,
-                including datasets, benchmarks, and software libraries.
-              </p>
-            </div>
+              <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Coming Soon</h3>
+                <p className="text-gray-700"></p>
+              </div>
 
-            <div className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Community Links</h2>
-              <p className="text-gray-700 leading-relaxed">
-                Connect with the broader AI safety community through forums, conferences,
-                and collaborative platforms.
-              </p>
+              <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Coming Soon</h3>
+                <p className="text-gray-700"></p>
+              </div>
             </div>
-          </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl text-[#00386c] font-semibold text-gray-900 mb-6 text-center">Technical</h2>
+            <div className="grid gap-8 md:grid-cols-3">
+              <a href="https://transformer-circuits.pub/" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow no-underline focus:outline-none focus:ring-2 focus:ring-indigo-500" aria-label="Anthropic’s Transformer Circuits Thread">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">Anthropic’s Transformer Circuits Thread</h3>
+                    <p className="text-gray-700">Some great papers on Anthropic’s interpretability research</p>
+                  </div>
+                </div>
+              </a>
+
+              <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Coming Soon</h3>
+                <p className="text-gray-700"></p>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Coming Soon</h3>
+                <p className="text-gray-700"></p>
+              </div>
+            </div>
+          </section>
+
         </div>
       </div>
     </main>
