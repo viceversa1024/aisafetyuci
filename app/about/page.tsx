@@ -30,12 +30,6 @@ export default function About() {
             </div>
 
             <div className="bg-white rounded-lg shadow p-6 flex flex-col">
-              <img src="/images/team/raghav-sriram.svg" alt="Raghav Sriram" className="w-full h-40 object-cover rounded-md mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900">Raghav Sriram</h3>
-              <p className="text-sm text-gray-500">Treasurer</p>
-            </div>
-
-            <div className="bg-white rounded-lg shadow p-6 flex flex-col">
               <img src="/images/team/azalea-kasiri.svg" alt="Azalea Kasiri" className="w-full h-40 object-cover rounded-md mb-4" />
               <h3 className="text-lg font-semibold text-gray-900">Azalea Kasiri</h3>
               <p className="text-sm text-gray-500">Officer</p>
