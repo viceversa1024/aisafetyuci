@@ -53,13 +53,6 @@ export default function About() {
               <p className="text-sm text-gray-500">Officer</p>
             </div>
           </div>
-
-          <div className="bg-white p-8 pt-16">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Get Involved</h2>
-            <p className="text-gray-700 leading-relaxed">
-              Mentors, people, etc etc etc.
-            </p>
-          </div>
         </div>
       </div>
     </main>
