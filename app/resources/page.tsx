@@ -21,7 +21,7 @@ export default function Resources() {
         <div className="max-w-6xl mx-auto">
 
           <section className="mb-12">
-            <h2 className="text-3xl text-[#00386c] font-semibold text-gray-900 mb-6 text-center">Foundations</h2>
+            <h2 className="text-3xl text-[#00386c] font-semibold text-gray-900 mb-6 text-center">Foundational</h2>
             <div className="grid gap-8 md:grid-cols-3">
               <a href="https://www.youtube.com/watch?v=pYXy-A4siMw" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow no-underline focus:outline-none focus:ring-2 focus:ring-indigo-500" aria-label="Intro to AI Safety by Robert Miles (2021)">
                 <div className="relative">

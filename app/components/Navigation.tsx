@@ -9,9 +9,6 @@ export default function Navigation() {
             AI Safety at UCI
           </Link>
           <div className="flex space-x-8">
-            <Link href="/about" className="text-indigo-100 hover:text-indigo-200 transition-colors font-medium">
-              About
-            </Link>
             <Link href="/programs" className="text-indigo-100 hover:text-indigo-200 transition-colors font-medium">
               Programs
             </Link>
