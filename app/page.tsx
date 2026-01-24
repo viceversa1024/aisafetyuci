@@ -121,7 +121,7 @@ export default function Home() {
 
               <div className="mt-8 text-center">
                 <a
-                  href="https://docs.google.com/spreadsheets/d/1vEjZhOod4TGB06gjNjoip7lAhmZmNdFT0LRmovrwS48/edit?usp=sharing"
+                  href="https://docs.google.com/spreadsheets/d/1Xun0Q1a25BVLKvJEjkixesrgcR30k7nqQQX1CB94tlU/edit?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block text-indigo-600 hover:text-indigo-700 font-semibold"
