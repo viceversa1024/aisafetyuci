@@ -10,16 +10,23 @@ export default function Home() {
               <h1 className="text-5xl font-bold text-white mb-6">AI Safety at UCI</h1>
               <p className="text-xl text-indigo-100 mb-8">A community dedicated to reducing risk from advanced AI.</p>
 
-              <div className="mt-6">
+              <div className="mt-6 flex justify-center gap-4">
                 <a
                   href="https://discord.gg/uENtNdDPPb"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-md shadow"
+                  className="inline-block bg-indigo-100 hover:bg-white text-[#00386c] font-semibold py-3 px-6 rounded-md shadow transition-colors"
                   aria-label="Join our Discord"
                 >
                   Join Discord
                 </a>
+                <Link
+                  href="/contact"
+                  className="inline-block bg-indigo-100 hover:bg-white text-[#00386c] font-semibold py-3 px-6 rounded-md shadow transition-colors"
+                  aria-label="Get Coffee"
+                >
+                  Get Coffee
+                </Link>
               </div>
             </div>
           </div>
