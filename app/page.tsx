@@ -95,10 +95,10 @@ export default function Home() {
                   <div className="flex justify-between items-start">
                     <div>
                       <h3 className="text-xl font-bold text-gray-900">General Meeting</h3>
-                      <p className="text-gray-600 mt-1">Our biweekly general meeting for all members.</p>
+                      <p className="text-gray-600 mt-1">Our general meeting for all members, 1st and 3rd Tuesdays of the month.</p>
                     </div>
                     <div className="text-right">
-                      <p className="text-lg font-semibold text-[#00386c]">Tuesday, January 13th</p>
+                      <p className="text-lg font-semibold text-[#00386c]">Tuesdays</p>
                       <p className="text-sm text-gray-500">5:00 PM - 7:00 PM</p>
                     </div>
                   </div>
@@ -109,10 +109,10 @@ export default function Home() {
                   <div className="flex justify-between items-start">
                     <div>
                       <h3 className="text-xl font-bold text-gray-900">Coworking Sessions</h3>
-                      <p className="text-gray-600 mt-1">Biweekly collaborative work on AI safety projects</p>
+                      <p className="text-gray-600 mt-1">Collaborative work on AI safety projects, 2nd and 4th Tuesdays of the month</p>
                     </div>
                     <div className="text-right">
-                      <p className="text-lg font-semibold text-[#00386c]">Tuesday, January 20th</p>
+                      <p className="text-lg font-semibold text-[#00386c]">Tuesdays</p>
                       <p className="text-sm text-gray-500">5:00 PM - 7:00 PM</p>
                     </div>
                   </div>
