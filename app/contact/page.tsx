@@ -35,6 +35,15 @@ export default function Contact() {
               </div>
             </div>
           </div>
+
+          <div className="bg-[#00386c] rounded-lg shadow-lg p-8 text-center">
+            <p className="text-xl text-white font-semibold">
+              Curious about AI safety?{' '}
+              <a href="https://calendly.com/helenatran9305" target="_blank" rel="noopener noreferrer" className="underline text-indigo-200 hover:text-white">
+                Let us buy you coffee!
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </main>
