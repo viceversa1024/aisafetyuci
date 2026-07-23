@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import type { ReactNode } from 'react'
 
 const pageTitle = 'Team'
 const pageDescription = "Meet the people behind AISCI — the students, researchers, and advisors working on AI safety at UC Irvine."
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
 interface TeamMember {
   name: string
   role: string
-  bio: string
+  bio: ReactNode
   image: string
   website?: string
 }
@@ -34,25 +35,48 @@ interface TeamMember {
 const executiveBoard: TeamMember[] = [
   {
     name: 'Dominic Mascetti',
-    role: 'Co-Director',
+    role: 'Fellowship Lead',
     bio: 'Dominic leads AISCI’s fellowships and external events. His interests include AI governance, field strategy, and writing.',
     image: '/images/team/dominic-mascetti.jpg',
     website: 'https://dominicmascetti.com/',
   },
   {
     name: 'Prema Suthaharan',
-    role: 'Co-Director',
+    role: 'Events and Programs Lead',
     bio: 'Prema is an AI/ML engineering intern at Optum, with past internships at Medtronic and KPMG. She was previously events director and facilitator for AISCI.',
     image: '/images/team/prema-suthaharan.jpg',
     website: 'https://premasuthaharan.com/',
   },
   {
     name: 'Ivan Shishkin',
-    role: 'Co-Director',
+    role: 'Operations Lead',
     bio: 'Ivan is a 3rd year CS student in charge of operations and the fellowship. He is researching AI literacy at the Digital Learning Lab and also works part-time as a full-stack engineer.',
     image: '/images/team/ivan-shishkin.jpg',
     website: 'https://www.ivanshishkin.com/',
   },
+  {
+    name: 'Swaraag Sistla',
+    role: 'Project Incubator Lead',
+    bio: (
+      <>
+        Swaraag is developing a novel dangerous-capability evaluation for frontier LLMs and leads AISCI’s technical research initiatives. He is a Product & Data Engineering Intern at Mu Sigma, building analytics engines for a Fortune 25 client, and previously worked in the{' '}
+        <a
+          href="https://www.igb.uci.edu/~pfbaldi/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2 hover:text-gray-500 transition-colors"
+        >
+          Pierre Baldi Lab
+        </a>
+        .
+      </>
+    ),
+    image: '/images/team/swaraag-sistla.jpg',
+    website: 'https://www.linkedin.com/in/swaraagsistla',
+  },
+]
+
+const advisors: TeamMember[] = [
   {
     name: 'Harry Waterman',
     role: 'Advisor',
@@ -114,7 +138,7 @@ function Section({ title, members, emptyMessage }: { title: string; members: Tea
       ) : (
         <div className="flex flex-wrap justify-center gap-12">
           {members.map((person) => (
-            <div key={person.name} className="flex justify-center w-full sm:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-2rem)]">
+            <div key={person.name} className="flex justify-center w-full sm:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-2rem)] xl:w-[calc(25%-2.25rem)]">
               <PersonCard person={person} />
             </div>
           ))}
@@ -135,6 +159,7 @@ export default function Team() {
 
       <div className="container mx-auto px-4 pt-12 pb-16">
         <Section title="Executive Board" members={executiveBoard} />
+        <Section title="Advisors" members={advisors} />
         <Section title="Organizers" members={organizers} emptyMessage="Organizing team to be announced." />
 
         <div className="bg-[#18234e] rounded-lg p-10 text-center mt-8">
