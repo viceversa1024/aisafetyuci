@@ -6,7 +6,7 @@ import MissionStatement from './components/MissionStatement'
 import { links } from './data/links'
 import { programsByKey } from './data/programs'
 
-const homeTitle = 'AI Safety & Alignment at UC Irvine'
+const homeTitle = 'AI Safety Collective at Irvine'
 const homeDescription = 'AISCI is UC Irvine\'s student community for AI alignment and AI safety. Join our Intro Fellowship, reading groups, and research programs at UCI focused on reducing risk from advanced AI.'
 
 export const metadata: Metadata = {
